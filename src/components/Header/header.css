@@ -1,0 +1,26 @@
+.header {
+    margin-top: 25px;
+}
+
+.header-block {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.header-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.header-menu ul {
+    display: flex;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.header-menu ul li:not(:last-child) {
+    margin-right: 60px;
+}

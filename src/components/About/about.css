@@ -1,0 +1,17 @@
+.about-me {
+    margin-top: 60px;
+}
+
+.about-block {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.about-title {
+    font-weight: 800;
+    line-height: 116px;
+}
+.about-text {
+    max-width: 915px;
+}

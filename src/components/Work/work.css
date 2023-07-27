@@ -1,0 +1,9 @@
+.work {
+    margin-top: 30px;
+}
+
+.work-list li::before {
+    color: #556B2F; 
+    content: "▪"; 
+    padding-right: 10px; 
+}
