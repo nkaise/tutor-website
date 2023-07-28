@@ -2,6 +2,10 @@
     margin-top: 30px;
 }
 
-.education-td {
-    width: 120px;
+#education-th {
+    background-color: rgb(107, 142, 35, 0.4);
+}
+
+#education-td {
+    background-color: rgb(107, 142, 35, 0.1);
 }

@@ -6,6 +6,7 @@
     display: flex;
     text-align: center;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header-title {
@@ -19,6 +20,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
+    align-items: center;
 }
 
 .header-menu ul li:not(:last-child) {

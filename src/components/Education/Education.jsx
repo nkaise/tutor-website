@@ -13,15 +13,15 @@ const Education = () => {
             <Table className='custom-table' id='my-custom-table' striped bordered hover>
                 <thead>
                     <tr>
-                        <th>Year</th>
-                        <th>Name</th>
+                        <th id='education-th'>Year</th>
+                        <th id='education-th'>Name</th>
                     </tr>
                 </thead>
                 <tbody>
                     {educationList.map(item => (
                         <tr key={item.id}>
-                            <td>{item.year}</td>
-                            <td>{item.name}</td>
+                            <td id='education-td'>{item.year}</td>
+                            <td id='education-td'>{item.name}</td>
                         </tr>
                     ))}
                 </tbody>

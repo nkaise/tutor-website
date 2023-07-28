@@ -2,7 +2,7 @@ const education = [
     {
         id: 0,
         year: "2016-2021",
-        name: "Chelyabinsk State University, Faculty of Linguistics and Translation “Linguist, translator"
+        name: 'Chelyabinsk State University, Faculty of Linguistics and Translation “Linguist, translator"'
     },
     {
         id: 1,
