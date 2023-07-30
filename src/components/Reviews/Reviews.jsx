@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import reviewsArray from './reviewsArray';
 import Carousel from 'react-bootstrap/Carousel';
 import './reviews.css';
@@ -5,10 +6,11 @@ import './reviews.css';
 const reviews = reviewsArray;
 
 const Reviews = () => {
+    const { t, i18n } = useTranslation();
     return ( 
     <section className="reviews">
         <div className="container">
-        <h3 className="title lng-reviews">reviews</h3>
+        <h3 className="title lng-reviews">{t('reviews.title')}</h3>
         <Carousel className="d-flex justify-content-center align-items-center carousel">
             {reviews.map(item => (
                 <Carousel.Item className='reviews-carousel-item' key={item}>

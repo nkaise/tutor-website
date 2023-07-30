@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import { useState } from 'react';
@@ -9,6 +10,7 @@ import three from '../../assets/images/classes/3.jpg';
 import four from '../../assets/images/classes/4.jpg';
 
 function MyVerticallyCenteredModal(props) {
+    const { t, i18n } = useTranslation();
     return (
       <Modal
         {...props}
@@ -18,20 +20,21 @@ function MyVerticallyCenteredModal(props) {
       >
         <Modal.Header closeButton>
           <Modal.Title id="contained-modal-title-vcenter">
-            Class example
+            {t('classes.modal-title')}
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <img src={props.picture}></img>
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="success" onClick={props.onHide}>Close</Button>
+          <Button variant="success" onClick={props.onHide}>{t('classes.modal-close')}</Button>
         </Modal.Footer>
       </Modal>
     );
   }
 
 const Classes = () => {
+    const { t, i18n } = useTranslation();
     const [picture, setPicture] = useState('');
     const [modalShow, setModalShow] = useState(false);
 
@@ -45,7 +48,7 @@ const Classes = () => {
         <section className="my-classes">
         <div className="container">
             <div className="my-classes-block">
-                <h3 className="title lng-classes">my classes</h3>
+                <h3 className="title lng-classes">{t('classes.title')}</h3>
                 <div className="my-classes-pics">
                     <img src={one} alt="My class" className="my-classes-pic" id="1" onClick={(e) => handleShowModal(e)}></img>
                     <img src={two} alt="My class" className="my-classes-pic" id="2" onClick={(e) => handleShowModal(e)}></img>

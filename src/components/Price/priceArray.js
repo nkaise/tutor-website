@@ -7,22 +7,22 @@ const priceArray = [
         id: 0,
         forRus: false,
         img: individ,
-        description: "Individual lesson (General English / English for speaking)",
+        description: "price.individ-description",
         currency: {
-            usd: 13,
-            euro: 11,
-            rub: 1400
+            usd: "price.usd-currency-individ",
+            euro: "price.euro-currency-individ",
+            rub: "price.rub-currency-individ"
         }
     },
     {
         id: 1,
         forRus: false,
         img: pair,
-        description: "Pair lesson in a group of two students (General English / English for speaking)",
+        description: "price.pair-description",
         currency: {
-            usd: 19,
-            euro: 16,
-            rub: 1000
+            usd: "price.usd-currency-pair",
+            euro: "price.euro-currency-pair",
+            rub: "price.rub-currency-pair"
         }
     },
     {
@@ -31,7 +31,7 @@ const priceArray = [
         img: exam,
         description: "Подготовка к ОГЭ / ЕГЭ",
         currency: {
-            rub: 1200
+            rub: "price.rub-currency-exam"
         }
     }
 ];

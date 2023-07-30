@@ -16,8 +16,8 @@ const Header = () => {
                 <h1 className="header-title">{t('header.title')}</h1>
                 <nav className="header-menu">
                     <ul>
-                        <li><a href="#work" className="lng-header-el-1">Work</a></li>
-                        <li><a href="#education" className="lng-header-el-2">Education</a></li>
+                        <li><a href="#work">{t('header.link-work')}</a></li>
+                        <li><a href="#education">{t('header.link-education')}</a></li>
                         <li>
                         <Dropdown>
                             <Dropdown.Toggle variant="success" id="dropdown-basic">
