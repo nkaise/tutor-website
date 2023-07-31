@@ -21,12 +21,23 @@ const Education = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    {educationList.map(item => (
+                    {educationList.map(item => (i18n.language === 'en' && item.forRus === true &&
                         <tr key={item.id}>
                             <td id='education-td'>{item.year}</td>
-                            <td id='education-td'><a href={item.document} target='_blank' id='education-link'>{t(item.name)}</a></td>
+                            <td id='education-td'>
+                                <a href={item.document} target='_blank' id='education-link'>{t(item.name)}</a>
+                            </td>
                         </tr>
-                    ))}
+                    ) || 
+                    (i18n.language === 'ru' &&
+                        <tr key={item.id}>
+                            <td id='education-td'>{item.year}</td>
+                            <td id='education-td'>
+                                <a href={item.document} target='_blank' id='education-link'>{t(item.name)}</a>
+                            </td>
+                        </tr>
+                    ))
+                    }
                 </tbody>
             </Table>
             </div>
