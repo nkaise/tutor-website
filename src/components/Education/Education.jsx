@@ -24,7 +24,7 @@ const Education = () => {
                     {educationList.map(item => (
                         <tr key={item.id}>
                             <td id='education-td'>{item.year}</td>
-                            <td id='education-td'>{t(item.name)}</td>
+                            <td id='education-td'><a href={item.document} target='_blank' id='education-link'>{t(item.name)}</a></td>
                         </tr>
                     ))}
                 </tbody>

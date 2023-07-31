@@ -19,10 +19,9 @@ const Price = () => {
                         <div className="prices-card">
                             <img src={item.img}></img>
                             <p className="prices-title">{t(item.description)}</p>
-                            {i18n.language === 'en' ? 
-                                <span>{t(item.currency.usd)} / {t(item.currency.euro)}</span>
-                            : 
-                                <span>{t(item.currency.rub)}</span>
+                            {i18n.language === 'ru' && item.forRus === true && <span>{t(item.currency.rub)} </span> ||
+                               i18n.language === 'ru' && item.forRus === false && <span>{t(item.currency.rub)} / {t(item.currency.usd)} / {t(item.currency.euro)} / {t(item.currency.gel)}</span> ||
+                               i18n.language === 'en' && <span>{t(item.currency.usd)} / {t(item.currency.euro)} / {t(item.currency.gel)}</span>
                             }
                         </div>
                 ))}

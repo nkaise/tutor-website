@@ -13,3 +13,16 @@
     height: 270px;
     border-radius: 10px;
 }
+
+.my-classes-btns {
+    display: flex;
+    column-gap: 10px;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.my-classes-btns-a {
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 10px;
+}

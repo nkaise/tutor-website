@@ -20,7 +20,7 @@ const Main = () => {
                     <ul className="main-text-social">
                         <li><img src={telegram}></img><a href="https://gdrbshv.t.me" target="_blank">@gdrbshv</a></li>
                         <li><img src={email}></img><a href="mailto:galyaa.30@gmail.com">galyaa.30@gmail.com</a></li>
-                        <li><a href="#prices">{t('main.link-price')}</a></li>
+                        <li><a href="#prices" className='main-text-social-btn'>{t('main.link-price')}</a></li>
                     </ul>
                 </div>
                 <div className='main-photo'>

@@ -11,6 +11,7 @@ const priceArray = [
         currency: {
             usd: "price.usd-currency-individ",
             euro: "price.euro-currency-individ",
+            gel: "price.gel-currency-individ",
             rub: "price.rub-currency-individ"
         }
     },
@@ -22,6 +23,7 @@ const priceArray = [
         currency: {
             usd: "price.usd-currency-pair",
             euro: "price.euro-currency-pair",
+            gel: "price.gel-currency-pair",
             rub: "price.rub-currency-pair"
         }
     },

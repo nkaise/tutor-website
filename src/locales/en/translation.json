@@ -12,16 +12,18 @@
     },
     "about": {
         "title": "about me",
+        "button": "Learn more",
         "1-paragraph-about": "The stars told that teaching is definitely for me.",
-        "2-paragraph-about": "Students say that our classes are the best thing has ever happened to them. To my mind, a friendly way in studying is very important, and it leads to high results!",
+        "2-paragraph-about": "My name is Galya, and I am an English teacher. I have been studying English since school, and have been teaching online for 5 years. I have a degree in Translation, as well a certificate as an English teacher. I have studied TEFL/TESOL Teacher Training and got the certificate. My current English level is C1.",
+        "3-paragraph-about": "Students say that our classes are the best thing has ever happened to them. To my mind, a friendly way in studying is very important, and it leads to high results!",
         "methods-title": "my methods",
         "1-paragraph-methods": "I teach from SpeakOut and Outcome textbooks. I adapt the topics from the textbooks by my own, so every student will like it. We focus on all key English skills (speaking, grammar, vocabulary, listening, reading, pronunciation, writing) at our lessons.",
         "2-paragraph-methods": "We also work with students on reading books and watching TV series. I am excited to discuss themes that my students are fond of. Thanks to my students, I have learned more about Fortnite, Marvel, big tennis and more."
     },
     "work": {
         "title": "work",
-        "1-element": "General English (A1 level - B2 level)",
-        "2-element": "English for speaking (A1 level - B2 level)"
+        "1-element": "General English (A1 level - C1 level)",
+        "2-element": "English for speaking (A1 level - C1 level)"
     },
     "cases": {
         "title": "successful cases",
@@ -34,8 +36,15 @@
     },
     "classes": {
         "title": "my classes",
+        "subtitle": "By clicking on the buttons below you can see examples of my lessons",
         "modal-title": "class example",
-        "modal-close": "close"
+        "modal-close": "close",
+        "link-names":
+            {
+                "kardashians": "The Kardashian family and their secrets",
+                "textbook": "Working with the textbook",
+                "exam": "Preparing for the exam"
+            }
     },
     "reviews": {
         "title": "reviews"
@@ -54,9 +63,11 @@
         "title": "prices",
         "individ-description": "Individual lesson (General English / English for speaking)",
         "pair-description": "Pair lesson in a group of two students (General English / English for speaking)",
-        "usd-currency-individ": "$ 13",
-        "usd-currency-pair": "$ 19",
-        "euro-currency-individ": "€ 11",
-        "euro-currency-pair": "€ 16"
+        "usd-currency-individ": "$ 19",
+        "usd-currency-pair": "$ 13",
+        "euro-currency-individ": "€ 16",
+        "euro-currency-pair": "€ 11",
+        "gel-currency-individ": "₾ 50",
+        "gel-currency-pair": "₾ 35"
     }
 }

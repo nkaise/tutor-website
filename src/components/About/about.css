@@ -15,3 +15,11 @@
 .about-text {
     max-width: 915px;
 }
+
+.about-me-btn {
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
