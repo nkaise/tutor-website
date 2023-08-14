@@ -29,10 +29,13 @@ const priceArray = [
     },
     {
         id: 2,
-        forRus: true,
+        forRus: false,
         img: exam,
         description: "Подготовка к ОГЭ / ЕГЭ",
         currency: {
+            usd: "price.usd-currency-exam",
+            euro: "price.euro-currency-exam",
+            gel: "price.gel-currency-exam",
             rub: "price.rub-currency-exam"
         }
     }

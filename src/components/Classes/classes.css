@@ -22,7 +22,19 @@
 }
 
 .my-classes-btns-a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     border: 2px solid;
     padding: 10px;
     border-radius: 10px;
+}
+
+@media (max-width: 991px) {
+    .my-classes-btns {
+        flex-direction: column;
+        row-gap: 35px;
+        align-items: center;
+    }
 }

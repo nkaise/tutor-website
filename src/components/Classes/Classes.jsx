@@ -13,7 +13,7 @@ const Classes = () => {
                 <span>{t('classes.subtitle')}</span>
                 <div className='my-classes-btns'>
                     {classesLinks.map(item => (
-                        <div><a href={item.url} target='_blank' className='my-classes-btns-a'>{t(item.name)}</a></div>
+                        <div className='my-classes-btns-a'><a href={item.url} target='_blank'>{t(item.name)}</a></div>
                     ))}
                 </div>
             </div>

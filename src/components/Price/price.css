@@ -23,3 +23,11 @@
     border-radius: 10px;
     text-align: center;
 }
+
+@media (max-width: 991px) {
+    .prices-cards {
+        flex-direction: column;
+        row-gap: 15px;
+        align-items: center;
+    }
+}

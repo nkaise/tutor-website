@@ -29,3 +29,25 @@ a {
     font-size: 70px;
     font-weight: 800;
 }
+
+ul {
+    padding-left: 0px;
+}
+
+@media (max-width: 1219px) {
+    .container {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .title {
+        font-size: 40px;
+        line-height: 60px;
+    }
+}
+

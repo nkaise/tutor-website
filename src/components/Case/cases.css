@@ -9,6 +9,7 @@
     padding: 5px;
     margin-left: auto;
     margin-right: auto;
+    width: 80%;
 }
 
 .case-block {
@@ -20,8 +21,38 @@
 .case-a,
 .case-b {
     width: 400px;
+    border: 2px solid #556B2F;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 0;
 }
 
 .case-b {
     padding-left: 5px;
 }
+
+@media (max-width: 767px) {
+    .case-card {
+        flex-direction: column;
+    }
+
+    .case-block {
+        row-gap: 50px;
+    }
+}
+
+@media (max-width: 450px) {
+    .case-a, .case-b {
+        width: unset;
+        min-width: 300px;
+    }
+}
+
+
+
+  
+
+  
+
+  
+  

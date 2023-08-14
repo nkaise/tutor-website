@@ -21,8 +21,15 @@
     font-size: 18px;
     line-height: 27px;
     align-items: center;
+    padding-left: 0px;
 }
 
 .header-menu ul li:not(:last-child) {
     margin-right: 60px;
+}
+
+@media (max-width: 767px) {
+    .header-block {
+        flex-direction: column;
+    }
 }

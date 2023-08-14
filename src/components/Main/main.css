@@ -31,6 +31,7 @@ main {
     font-weight: 500;
     font-size: 24px;
     line-height: 42px;
+    padding-left: 0px;
 }
 
 .main-pic {
@@ -61,8 +62,7 @@ main {
 }
 
 .main-text {
-    max-width: 565px;
-    max-height: 314px;
+    max-width: 460px;
 }
 
 .main-text-social li {
@@ -88,4 +88,70 @@ main {
     border-radius: 10px;
     padding: 3px;
     margin-top: 5px;
+}
+
+@media (max-width: 1399px) {
+    .main-text-subtitle {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 991px) {
+    .main-block {
+        flex-direction: column;
+        row-gap: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    main {
+        margin-top: 50px;
+    }
+
+    .main-text-subtitle {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .main-text-location {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .main-photo {
+        width: 80%;
+        height: auto;
+    }
+}
+
+@media (max-width: 500px) {
+    main {
+        margin-top: 30px;
+    }
+
+    .main-text-subtitle {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .main-text-title, .main-text-location {
+        font-size: 24px;
+    }
+
+    .header-menu ul li:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .main-text-social {
+        font-size: 20px;
+    }
+
+    .main-dec-1 {
+        right: 0;
+    }
+
+    .main-dec-2 {
+        bottom: 50px;
+    }
 }

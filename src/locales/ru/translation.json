@@ -2,7 +2,7 @@
     "header": {
       "title": "Галина Дробышева",
       "link-work": "Работа",
-      "link-education": "Обучение"
+      "link-education": "Образование"
     },
     "main": {
         "title": "Привет, я Галя,",
@@ -67,6 +67,6 @@
         "exam-description": "Подготовка к ОГЭ / ЕГЭ",
         "rub-currency-individ": "₽ 1500",
         "rub-currency-pair": "₽ 1000",
-        "rub-currency-exam": "₽ 1200"
+        "rub-currency-exam": "₽ 1400"
     }
 }
