@@ -16,7 +16,7 @@ const Header = () => {
                 <h1 className="header-title">{t('header.title')}</h1>
                 <nav className="header-menu">
                     <ul>
-                        <li><a href="#work">{t('header.link-work')}</a></li>
+                        <li><a href="#methods">{t('header.link-work')}</a></li>
                         <li><a href="#education">{t('header.link-education')}</a></li>
                         <li>
                         <Dropdown>

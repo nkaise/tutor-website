@@ -37,7 +37,7 @@ const ScrollToTopButton = () => {
         ↑
       </Button>
     );
-  };
+};
   
-  export default ScrollToTopButton;
+export default ScrollToTopButton;
   

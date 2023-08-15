@@ -4,9 +4,10 @@
     right: 20px;
     opacity: 0;
     transition: opacity 0.3s ease;
-  }
+    border-radius: 50%;
+}
   
-  .scroll-to-top.visible {
+.scroll-to-top.visible {
     opacity: 1;
-  }
+}
   
