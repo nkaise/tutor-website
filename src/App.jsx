@@ -7,6 +7,7 @@ import Main from "./components/Main/Main"
 import Price from "./components/Price/Price"
 import Reviews from "./components/Reviews/Reviews"
 import Work from "./components/Work/Work"
+import ScrollToTopButton from "./assets/helpers/scrollToTop/ScrollToTop"
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <Reviews />
       <Education />
       <Price />
+      <ScrollToTopButton />
     </>
   )
 }

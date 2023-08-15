@@ -67,6 +67,15 @@
         "exam-description": "Подготовка к ОГЭ / ЕГЭ",
         "rub-currency-individ": "₽ 1500",
         "rub-currency-pair": "₽ 1000",
-        "rub-currency-exam": "₽ 1400"
+        "rub-currency-exam": "₽ 1400",
+        "usd-currency-individ": "$ 19",
+        "usd-currency-pair": "$ 13",
+        "usd-currency-exam": "$ 18",
+        "euro-currency-individ": "€ 16",
+        "euro-currency-pair": "€ 11",
+        "euro-currency-exam": "€ 15",
+        "gel-currency-individ": "₾ 50",
+        "gel-currency-pair": "₾ 35",
+        "gel-currency-exam": "₾ 40"
     }
 }

@@ -15,6 +15,6 @@ i18n
         ru: { translation: translationRU }
     },
     debug: true,
-    fallbackLng: 'en',
   });
+
 export default i18n;
